@@ -1,0 +1,35 @@
+{
+ "scene": {
+  "size": 28156322,
+  "sha256": "550e2ef4fbd0d1409f3ef490b4e1132b5522f4eff4e96f0b7f6915f747931b16",
+  "parts": [
+   "assets/models/section1/scene.gz.000",
+   "assets/models/section1/scene.gz.001"
+  ]
+ },
+ "part": {
+  "size": 15848690,
+  "sha256": "983670418f677c7c2ca91f17111ca860abee6625383147bf74a53e821e89fd36",
+  "parts": [
+   "assets/models/section1/part.gz.000"
+  ]
+ },
+ "fire": {
+  "size": 89329659,
+  "sha256": "63c0362d34389b5e4b0c74cb02d8603126e39a4e4401177b0401ce377bb17503",
+  "parts": [
+   "assets/models/section1/fire.gz.000",
+   "assets/models/section1/fire.gz.001",
+   "assets/models/section1/fire.gz.002",
+   "assets/models/section1/fire.gz.003",
+   "assets/models/section1/fire.gz.004"
+  ]
+ },
+ "ph": {
+  "size": 16341376,
+  "sha256": "0fede1f53a9c93689cc9534620f6fc901bf68ba209590ee04f0bf51394b7cac8",
+  "parts": [
+   "assets/models/section1/ph.gz.000"
+  ]
+ }
+}

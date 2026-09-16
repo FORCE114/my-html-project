@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>والدورف أستوريا — القطاع والموقع والرافعات</title>
+<style>
+  :root{
+    --navy:#0d1b4b;
+    --navy-2:#13245e;
+    --blue:#1f6fd6;
+    --green:#1c8a4a;
+    --orange:#e08a1e;
+    --red:#d23b3b;
+    --grey:#d9dce3;
+    --bg:#ffffff;
+    --card-bg:#f7f8fb;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:var(--bg);
+    color:var(--navy);
+    padding:28px;
+  }
+  .page{ display:none; }
+  .page.active{ display:block; animation: fadeInOutLoopPage .5s ease; }
+  @keyframes fadeInOutLoopPage{ from{opacity:0;} to{opacity:1;} }
+</style>
+
+<style id="reportTwoPageStyle">
+.report-pager{max-width:1560px;margin:0 auto 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 16px;background:#f5f7fb;border:1px solid #e0e5ef;border-radius:12px;font-family:'Segoe UI',Tahoma,sans-serif;}
+.report-page-buttons{display:flex;gap:8px;flex-wrap:wrap}.report-page-button{border:1px solid #d5dce8;background:white;color:#13245e;padding:11px 19px;border-radius:8px;font:700 14px 'Segoe UI',Tahoma,sans-serif;cursor:pointer;min-height:44px;}
+.report-page-button[aria-current="page"]{background:#13245e;border-color:#13245e;color:white}.report-page-button:focus-visible,.walk-report-fullscreen:focus-visible{outline:3px solid #69a8fa;outline-offset:3px}
+.report-counter{font-size:13px;font-weight:700;color:#586582;white-space:nowrap}.report-counter span{display:inline-block;margin-inline-start:7px;direction:ltr}
+#page1{max-width:1560px;margin:0 auto;break-before:page}.walk-report-heading{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:12px}.walk-report-heading h2{font-size:24px;margin:0;color:#13245e}.walk-report-heading p{margin:5px 0 0;color:#61718c;font-size:13px}.walk-report-fullscreen{background:#fff;border:1px solid #d5dce8;color:#13245e;border-radius:8px;padding:11px 18px;font:700 13px 'Segoe UI',Tahoma,sans-serif;cursor:pointer;white-space:nowrap;min-height:44px}
+.walk-report-shell{position:relative;background:#e9eff3;border:1px solid #dce3ea;border-radius:12px;overflow:hidden;height:calc(100dvh - 205px);min-height:620px;box-shadow:0 8px 28px #13245e12}
+#reportWalkthrough{display:block;width:100%;height:100%;border:0}.walk-report-shell:fullscreen{width:100vw;height:100dvh;max-width:none;min-height:0;border:0;border-radius:0}.walk-report-status{font-size:12px;color:#62738b;margin:9px 2px 0;min-height:18px}.walk-report-print{display:none}
+@media(max-width:720px){body{padding:12px}.report-pager{padding:10px;gap:10px;margin-bottom:16px}.report-page-button{font-size:12px;padding:10px 12px}.report-counter{font-size:11px}.walk-report-heading h2{font-size:20px}.walk-report-heading p{font-size:11px}.walk-report-fullscreen{font-size:11px;padding:10px}.walk-report-shell{min-height:650px;height:calc(100dvh - 190px)}}
+@media print{.report-pager,.walk-report-fullscreen,.walk-report-shell,.walk-report-status{display:none!important}#page1{display:block!important;page-break-before:always}.walk-report-print{display:block;font-size:16px;color:#13245e;padding:40px;border:1px solid #ddd}}
+@media(prefers-reduced-motion:reduce){.page.active{animation:none}}
+</style>
+<style>#page2{max-width:1560px;margin:0 auto;break-before:page}</style></head>
+<body>
+<nav class="report-pager" aria-label="صفحة التقرير" dir="rtl"><div class="report-page-buttons"><button class="report-page-button" type="button" id="reportPage1" data-report-page="1" aria-controls="page1" aria-current="page">1 · القطاع والموقع والرافعات</button><button class="report-page-button" type="button" id="reportPage2" data-report-page="2" aria-controls="page2">2 · حتى الدور الخامس</button></div><div class="report-counter">الصفحة <span id="pagerCounter">1 / 2</span></div></nav>
+<style>#page1{max-width:1560px;margin:0 auto;break-before:page}@media print{#page1{display:block!important;page-break-before:always}}</style>
+<div id="page1" class="page active" aria-hidden="false"><div class="walk-report-heading" dir="rtl"><div><h2>القطاع الرأسي والموقع والرافعات</h2><p>جولة تفاعلية في نموذج المشروع · دوران وطيران حر · خامات وإضاءة محسّنة</p></div><button type="button" class="walk-report-fullscreen" id="reportSectionFullscreen">ملء الشاشة</button></div><div class="walk-report-shell" id="reportSectionShell"><iframe id="reportSection" title="جولة المبنى المقطوع والرافعتين" allow="fullscreen" style="display:block;width:100%;height:100%;border:0"></iframe></div><div id="reportSectionStatus" class="walk-report-status" dir="rtl" role="status">اختر الصفحة لفتح المشهد.</div><div class="walk-report-print" dir="rtl">المشهد ثلاثي الأبعاد متاح تفاعليًا في الصفحة الوحيدة من ملف HTML.</div></div>
+<div id="page2" class="page" aria-hidden="true"><div class="walk-report-heading" dir="rtl"><div><h2>حتى الدور الخامس · UP TO 5TH</h2><p>جولة تفاعلية في نموذج المشروع · دوران وطيران حر · خامات وإضاءة محسّنة</p></div><button type="button" class="walk-report-fullscreen" id="reportSection2Fullscreen">ملء الشاشة</button></div><div class="walk-report-shell" id="reportSection2Shell"><iframe id="reportSection2" title="المبنى حتى الدور الخامس وشبكات المواسير" allow="fullscreen" style="display:block;width:100%;height:100%;border:0"></iframe></div><div id="reportSection2Status" class="walk-report-status" dir="rtl" role="status">اختر الصفحة لفتح المشهد.</div><div class="walk-report-print" dir="rtl">المشهد ثلاثي الأبعاد متاح تفاعليًا في الصفحة الثانية من ملف HTML.</div></div>
+
+
+<script id="reportTwoPageController">
+(function(){'use strict';var TOTAL_PAGES=2;window.TOTAL_PAGES=TOTAL_PAGES;var current=0;
+var pages=[1,2].map(function(n){var id='reportSection'+(n===1?'':'2');return {n:n,id:id,page:document.getElementById('page'+n),frame:document.getElementById(id),status:document.getElementById(id+'Status'),button:document.getElementById('reportPage'+n),mounted:false};});
+function notify(){pages.forEach(function(p){if(p.mounted)p.frame.contentWindow.postMessage({type:'report-section-visibility',visible:p.n===current&&!document.hidden},'*');});}
+function mount(p){p.mounted=true;p.status.textContent='جارٍ تجهيز المشهد المضمّن…';var u=p.n===1?'section1.html':'section2.html';if(p.frame.getAttribute('src')===u){p.frame.contentWindow.location.reload();}else{p.frame.src=u;}}
+function show(n){n=n===2?2:1;current=n;pages.forEach(function(p){var active=p.n===n;p.page.classList.toggle('active',active);p.page.setAttribute('aria-hidden',String(!active));if(active)p.button.setAttribute('aria-current','page');else p.button.removeAttribute('aria-current');});document.getElementById('pagerCounter').textContent=n+' / '+TOTAL_PAGES;var p=pages[n-1];if(!p.mounted)requestAnimationFrame(function(){mount(p);});notify();if(location.hash!=='#page'+n)history.replaceState(null,'',location.pathname+location.search+'#page'+n);}
+pages.forEach(function(p){p.button.onclick=function(){show(p.n);};p.frame.addEventListener('load',notify);document.getElementById(p.id+'Fullscreen').onclick=async function(){try{if(document.fullscreenElement)await document.exitFullscreen();else await document.getElementById(p.id+'Shell').requestFullscreen();}catch(e){p.status.textContent='استخدم تكبير المتصفح لعرض المشهد.';}};});
+document.addEventListener('visibilitychange',notify);window.addEventListener('hashchange',function(){show(location.hash==='#page2'?2:1);});window.addEventListener('message',function(e){var p=pages.find(function(p){return e.source===p.frame.contentWindow;});if(!p)return;if(e.data?.type==='report-section-ready'){p.frame.dataset.ready='true';p.status.textContent='اسحب للدوران · الطيران الحر: WASD · الصعود والنزول: E / Q · حفظ صورة بدقة 4K';notify();}if(e.data?.type==='report-section-paused')p.frame.dataset.paused=String(e.data.paused);if(e.data?.type==='report-section-error')p.status.textContent=e.data.message;if(e.data?.type==='report-section-reload')mount(p);});show(location.hash==='#page2'?2:1);
+})();</script>
+</body></html>
